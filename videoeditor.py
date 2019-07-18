@@ -1,12 +1,13 @@
 from moviepy.editor import *
 
 #Content video location
-content_loc = input("Enter content video location: ") 
-content=VideoFileClip(content_loc)
+content_name = input("Enter content video name: ") 
+content = VideoFileClip(content_name)
 
 #Intro video location
-intro_loc =input("Enter Intro video location: ") 
-intro=VideoFileClip(intro_loc)
+intro_name = input("Enter intro video name: ") 
+intro = VideoFileClip(intro_name)
 
-finalrender = concatenate_videoclips([intro,content,intro])
+#Video concatenation function
+finalrender = concatenate_videoclips([intro,content])
 finalrender.write_videofile('finalclass.mp4', codec='libx264')
