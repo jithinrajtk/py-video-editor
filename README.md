@@ -6,11 +6,16 @@ Python Script to join / concatenate video files
 
 ## Installation
 ### On Linux & OSX
+
+For Python3
 `$ pip3 install moviepy`
+
+For Python2
+`$ pip install moviepy`
 
 ## Usage
 ### Steps
-* Rename first video $FILENAME name to `first.mp4` and second video $FILENAME to `second.mp4`</br>
+* Add files to the same location and reffer their names while running the program.Dont forget to include the extension</br>
 * Run `$ python videoeditor.py`
 
 ### Acknowledgements 
