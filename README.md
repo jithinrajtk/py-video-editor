@@ -9,7 +9,7 @@ Python Script to join / concatenate video files
 `$ pip3 install moviepy`
 
 ## Usage
-###Steps
+### Steps
 Rename first video $FILENAME name to `first.mp4` and second video $FILENAME to `second.mp4`
 `$ python videoeditor.py`
 
