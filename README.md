@@ -15,8 +15,7 @@ For Python2
 
 ## Usage
 ### Steps
-* Add the video files to the same location and reffer their names while running the program</br>
-** PS: Dont forget to include the extension</br>
+* Add the video files to the same location and reffer their names while running the program. Dont forget to include the extension</br>
 * Run `$ python videoeditor.py`
 
 ### Acknowledgements 
