@@ -3,6 +3,7 @@ Python Script to join / concatenate video files
 
 ## Dependencies 
 * moviepy - https://zulko.github.io/moviepy/
+* ffmpeg - https://gpac.wp.mines-telecom.fr/mp4box/
 
 ## Installation
 ### On Linux & OSX
@@ -12,6 +13,10 @@ For Python3
 
 For Python2
 `$ pip install moviepy`
+
+For ffmpeg
+On Linux `$ sudo apt-get install ffmpeg`</br>
+On Mac `$ brew install ffmpeg` 
 
 ## Usage
 ### Steps
