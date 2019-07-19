@@ -15,8 +15,8 @@ For Python2
 
 ## Usage
 ### Steps
-* Add files to the same location and reffer their names while running the program.Dont forget to include the extension</br>
-* Run `$ python videoeditor.py`
+* Add file names as command line arguments like example below.Dont forget to include the extension</br>
+* Run `$ python videoeditor.py intro.mp4 content.mp4 outer.mp4`
 
 ### Acknowledgements 
 This is made using moviepy library
