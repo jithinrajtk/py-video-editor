@@ -14,8 +14,9 @@ For Python3
 For Python2
 `$ pip install moviepy`
 
-For ffmpeg
+For ffmpeg</br>
 On Linux `$ sudo apt-get install ffmpeg`</br>
+
 On Mac `$ brew install ffmpeg` 
 
 ## Usage
