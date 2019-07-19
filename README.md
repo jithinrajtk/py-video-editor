@@ -19,7 +19,7 @@ For ffmpeg
 
 ### On Mac
 
-or Python3
+For Python3
 `$ pip3 install moviepy`
 
 For Python2
