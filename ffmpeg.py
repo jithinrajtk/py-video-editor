@@ -1,8 +1,3 @@
-import glob 
 import os
-
-stringa = ""
-for f in glob.glob("*.mp4"):
-    stringa += f + "|"
-
-os.system("ffmpeg -i \"concat:" + stringa + "\" -codec copy output.mp4")
+myCmd = 'ffmpeg -f concat -safe 0 -protocol_whitelist file,http,https,tcp,tls,crypto -i list.txt -c copy outfile.mp4 -n'
+os.system(myCmd)
