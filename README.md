@@ -29,9 +29,13 @@ For ffmpeg
 `$ brew install ffmpeg` 
 
 ## Usage
-### Steps
+### Using moviepy
 * Add file names as command line arguments like example below.Dont forget to include the extension</br>
 * Run `$ python videoeditor.py intro.mp4 content.mp4 outer.mp4`
+
+### Using ffmpeg
+* Add file names to a text file. Refer list.txt file
+* Run `$ ffmpeg -f concat -safe 0 -protocol_whitelist file,http,https,tcp,tls,crypto -i list.txt -c copy outfile.mp4 -n`
 
 ### Acknowledgements 
 This is made using moviepy library
