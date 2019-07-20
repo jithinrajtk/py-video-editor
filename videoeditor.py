@@ -12,9 +12,5 @@ intro=VideoFileClip(sys.argv[1])
 #Content video location
 content=VideoFileClip(sys.argv[2])
 
-#Outer video location
-outer=VideoFileClip(sys.argv[3])
-
-finalrender = concatenate_videoclips([intro,content,outer])
+finalrender = concatenate_videoclips([intro,content])
 finalrender.write_videofile('finalclass.mp4', codec='libx264')
-print('\x1b[6;30;42m' + 'Success' + '\x1b[0m')
